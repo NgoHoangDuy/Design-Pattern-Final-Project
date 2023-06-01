@@ -4,12 +4,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Singleton {
-
     private static Singleton instance;
+    private String data;
 
     private Singleton() {
-        // Khởi tạo singleton
-        System.out.println("Tui tạo ra SingleTon rồi ne");
+        // Khởi tạo các thành phần cần thiết
+        data = "Initial data";
     }
 
     public static synchronized Singleton getInstance() {
@@ -19,7 +19,11 @@ public class Singleton {
         return instance;
     }
 
-    public void showMessage() {
-        System.out.println("xin chao");
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
     }
 }
