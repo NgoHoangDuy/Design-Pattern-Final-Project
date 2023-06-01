@@ -1,4 +1,6 @@
 package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.controller.ProductController;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.factory.ProductFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

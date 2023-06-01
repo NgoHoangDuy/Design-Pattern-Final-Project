@@ -1,4 +1,4 @@
-package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod;
+package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.creator;
 
 public class Book implements Product {
     @Override

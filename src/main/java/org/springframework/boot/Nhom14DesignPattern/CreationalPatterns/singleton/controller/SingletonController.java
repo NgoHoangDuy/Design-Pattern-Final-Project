@@ -1,6 +1,7 @@
-package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.singleton;
+package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.singleton.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.singleton.Singleton;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,5 +1,7 @@
-package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod;
+package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.controller;
 
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.creator.Product;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.factory.ProductFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
