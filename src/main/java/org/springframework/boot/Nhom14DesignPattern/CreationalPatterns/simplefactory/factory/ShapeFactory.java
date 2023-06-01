@@ -1,13 +1,12 @@
 package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.factory;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.shape.Shape;
-import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.shape.circle.Circle;
-import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.shape.rectangle.Rectangle;
-import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.factorymethod.shape.square.Square;
+
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.Shape;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.circle.Circle;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.rectangle.Rectangle;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.square.Square;
 import org.springframework.stereotype.Component;
-
-
 
 @Component
 public class ShapeFactory {

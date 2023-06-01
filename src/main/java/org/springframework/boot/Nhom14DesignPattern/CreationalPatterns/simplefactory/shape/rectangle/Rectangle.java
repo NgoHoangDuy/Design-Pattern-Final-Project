@@ -1,6 +1,7 @@
 package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.rectangle;
 
-import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.square.Shape;
+
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.Shape;
 import org.springframework.stereotype.Component;
 
 

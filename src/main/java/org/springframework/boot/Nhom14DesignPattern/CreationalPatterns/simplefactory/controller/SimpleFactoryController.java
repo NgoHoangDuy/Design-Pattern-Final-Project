@@ -2,6 +2,7 @@ package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefa
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.factory.ShapeFactory;
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.simplefactory.shape.Shape;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

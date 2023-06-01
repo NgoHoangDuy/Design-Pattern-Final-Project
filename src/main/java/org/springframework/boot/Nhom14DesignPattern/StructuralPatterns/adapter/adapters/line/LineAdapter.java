@@ -1,7 +1,7 @@
 package org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.line;
 
+import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.Shape;
 import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.line.Line;
-import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapters.Shape;
 
 public class LineAdapter implements Shape {
     private Line adaptee;

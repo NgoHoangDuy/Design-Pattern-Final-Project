@@ -3,11 +3,12 @@ package org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.Shape;
 import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.line.LineAdapter;
 import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.rectangle.RectangleAdapter;
 import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.line.Line;
 import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.rectangle.Rectangle;
-import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapters.Shape;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

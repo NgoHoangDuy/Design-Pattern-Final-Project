@@ -1,7 +1,8 @@
 package org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.rectangle;
 
+import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.adapters.Shape;
 import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapter.rectangle.Rectangle;
-import org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.adapters.Shape;
+
 
 public class RectangleAdapter implements Shape {
     private Rectangle adaptee;
