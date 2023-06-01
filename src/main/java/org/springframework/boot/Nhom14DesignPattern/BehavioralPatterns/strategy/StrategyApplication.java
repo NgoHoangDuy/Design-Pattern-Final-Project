@@ -1,4 +1,4 @@
-package org.springframework.boot.Nhom14DesignPattern.BehavioralPatterns.strategy.strategies;
+package org.springframework.boot.Nhom14DesignPattern.BehavioralPatterns.strategy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
