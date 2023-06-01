@@ -1,4 +1,10 @@
 package org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.abstractfactory.components.macos;
 
-public class MacOSCheckbox {
+import org.springframework.boot.Nhom14DesignPattern.CreationalPatterns.abstractfactory.components.Checkbox;
+
+public class MacOSCheckbox implements Checkbox {
+    @Override
+    public String paint() {
+        return "You have created MacOSCheckbox.";
+    }
 }

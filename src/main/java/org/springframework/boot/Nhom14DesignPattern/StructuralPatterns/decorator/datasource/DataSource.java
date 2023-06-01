@@ -2,4 +2,7 @@ package org.springframework.boot.Nhom14DesignPattern.StructuralPatterns.decorato
 
 
 public interface DataSource {
+    void writeData(String data);
+
+    String readData();
 }
